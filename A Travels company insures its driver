@@ -17,3 +17,17 @@ int m,s,p;
 	    return 0;          
 	  }   
  }  
+{  
+ cout <<"-Enter sex-:\n";      
+ cout<< "1. male\n";      
+ cout<< "2. female\n";      
+ cin >> s;         
+ cout <<"-Enter your age-:\n";      
+ cin >> p;       
+ }      
+ if ((s==1, p>39) and (s==2, p>25))     
+  cout <<"-You are insured-\n";     
+ else     
+ cout <<"-You are not insured-\n";     
+ return 0; 
+}
